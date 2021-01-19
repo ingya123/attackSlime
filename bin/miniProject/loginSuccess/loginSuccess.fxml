@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="taDes" prefHeight="503.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniProject.loginSuccess.LoginSuccessController">
+   <children>
+      <Label fx:id="charSelBackground" />
+      <Label layoutX="175.0" layoutY="32.0" text="캐릭터 선택">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rbW" layoutX="56.0" layoutY="95.0" mnemonicParsing="false" onAction="#charSelect" prefHeight="42.0" prefWidth="91.0" text="전사">
+         <toggleGroup>
+            <ToggleGroup fx:id="character" />
+         </toggleGroup>
+         <font>
+            <Font size="23.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbB" layoutX="160.0" layoutY="99.0" mnemonicParsing="false" onAction="#charSelect" text="궁수" toggleGroup="$character">
+         <font>
+            <Font size="23.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="rbM" layoutX="259.0" layoutY="100.0" mnemonicParsing="false" onAction="#charSelect" text="마법사" toggleGroup="$character">
+         <font>
+            <Font size="23.0" />
+         </font></RadioButton>
+      <Label fx:id="lb01" layoutX="46.0" layoutY="157.0" prefHeight="201.0" prefWidth="203.0" />
+      <RadioButton fx:id="rbRan" layoutX="383.0" layoutY="88.0" mnemonicParsing="false" onAction="#charSelect" prefHeight="55.0" prefWidth="91.0" text="랜덤" toggleGroup="$character">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="21.0" layoutY="397.0" mnemonicParsing="false" onAction="#startGame" prefHeight="42.0" prefWidth="112.0" text="키보드 모드(엔터)" />
+      <Button layoutX="147.0" layoutY="397.0" mnemonicParsing="false" onAction="#mouseGame" prefHeight="42.0" prefWidth="112.0" text="마우스 모드(클릭)" />
+      <Label fx:id="comment" layoutX="249.0" layoutY="143.0" prefHeight="130.0" prefWidth="91.0" />
+      <Button layoutX="337.0" layoutY="397.0" mnemonicParsing="false" onAction="#exit" prefHeight="42.0" prefWidth="91.0" text="나가기" />
+   </children>
+</AnchorPane>

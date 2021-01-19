@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onKeyPressed="#attackKeyboard" prefHeight="696.0" prefWidth="1008.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniProject.game.Controller">
+   <children>
+      <Label fx:id="backLabel" layoutX="-4.0" layoutY="-9.0" prefHeight="707.0" prefWidth="1016.0" />
+      <Button fx:id="monster" ellipsisString="" layoutX="400.0" layoutY="161.0" mnemonicParsing="false" onAction="#attackMonster" prefHeight="71.0" prefWidth="163.0" text="Game Start!!">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label fx:id="timeLabel" layoutX="686.0" layoutY="14.0" prefHeight="47.0" prefWidth="66.0" text="시간">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="563.0" layoutY="22.0" text="스코어">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="ttt" layoutX="680.0" layoutY="61.0" prefHeight="23.0" prefWidth="78.0" text="시간" />
+      <Button fx:id="userImg" ellipsisString="" layoutX="162.0" layoutY="232.0" mnemonicParsing="false" prefHeight="139.0" prefWidth="152.0" text="Button" />
+      <Label fx:id="scoreLabel" layoutX="563.0" layoutY="57.0" text="0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="hpBar" layoutX="412.0" layoutY="474.0" prefHeight="18.0" prefWidth="287.0" progress="0.0" />
+   </children>
+</AnchorPane>

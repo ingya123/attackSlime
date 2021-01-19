@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="580.0" prefWidth="763.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniProject.scoreBoard.ScoreBoardController">
+   <children>
+      <ImageView fitHeight="577.0" fitWidth="934.0" layoutX="1.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/scorePage.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="304.0" layoutY="487.0" mnemonicParsing="false" onAction="#exitS" prefHeight="67.0" prefWidth="112.0" text="확 인" />
+      <Label fx:id="name01" layoutX="99.0" layoutY="207.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="name02" layoutX="99.0" layoutY="232.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="name03" layoutX="99.0" layoutY="259.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="name04" layoutX="99.0" layoutY="286.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="name09" layoutX="99.0" layoutY="423.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="name08" layoutX="99.0" layoutY="396.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="name07" layoutX="99.0" layoutY="369.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="name06" layoutX="99.0" layoutY="342.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="name05" layoutX="99.0" layoutY="313.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="name010" layoutX="99.0" layoutY="450.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="sc01" layoutX="166.0" layoutY="211.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="sc03" layoutX="166.0" layoutY="263.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="sc02" layoutX="166.0" layoutY="236.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="sc04" layoutX="166.0" layoutY="290.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="sc05" layoutX="166.0" layoutY="317.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="sc06" layoutX="166.0" layoutY="346.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="sc07" layoutX="166.0" layoutY="373.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="sc08" layoutX="166.0" layoutY="400.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="sc09" layoutX="166.0" layoutY="427.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="sc010" layoutX="166.0" layoutY="454.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label layoutX="53.0" layoutY="267.0" text="3위" />
+      <Label layoutX="52.0" layoutY="429.0" text="9위" />
+      <Label layoutX="53.0" layoutY="215.0" text="1위" />
+      <Label layoutX="53.0" layoutY="240.0" text="2위" />
+      <Label layoutX="53.0" layoutY="292.0" text="4위" />
+      <Label layoutX="52.0" layoutY="319.0" text="5위" />
+      <Label layoutX="52.0" layoutY="348.0" text="6위" />
+      <Label layoutX="52.0" layoutY="375.0" text="7위" />
+      <Label layoutX="52.0" layoutY="402.0" text="8위" />
+      <Label layoutX="47.0" layoutY="454.0" prefHeight="19.0" prefWidth="31.0" text="10위" />
+      <Label fx:id="cl01" layoutX="255.0" layoutY="207.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="cl02" layoutX="255.0" layoutY="232.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="cl03" layoutX="255.0" layoutY="259.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="cl04" layoutX="255.0" layoutY="286.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="cl05" layoutX="255.0" layoutY="313.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="cl06" layoutX="255.0" layoutY="342.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="cl07" layoutX="255.0" layoutY="369.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="cl08" layoutX="255.0" layoutY="396.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="cl09" layoutX="255.0" layoutY="423.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="cl010" layoutX="255.0" layoutY="450.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickName01" layoutX="545.0" layoutY="206.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickName02" layoutX="545.0" layoutY="231.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickName03" layoutX="545.0" layoutY="258.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickName04" layoutX="545.0" layoutY="285.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickName09" layoutX="545.0" layoutY="422.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickName08" layoutX="545.0" layoutY="395.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickName07" layoutX="545.0" layoutY="368.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickName06" layoutX="545.0" layoutY="341.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickName05" layoutX="545.0" layoutY="312.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickName010" layoutX="545.0" layoutY="449.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickSc01" layoutX="612.0" layoutY="210.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="clickSc03" layoutX="612.0" layoutY="262.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="clickSc02" layoutX="612.0" layoutY="235.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="clickSc04" layoutX="612.0" layoutY="289.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="clickSc05" layoutX="612.0" layoutY="316.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="clickSc06" layoutX="612.0" layoutY="345.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="clickSc07" layoutX="612.0" layoutY="372.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="clickSc08" layoutX="612.0" layoutY="399.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="clickSc09" layoutX="612.0" layoutY="426.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label fx:id="clickSc010" layoutX="612.0" layoutY="453.0" prefHeight="19.0" prefWidth="81.0" />
+      <Label layoutX="499.0" layoutY="264.0" text="3위" />
+      <Label layoutX="498.0" layoutY="428.0" text="9위" />
+      <Label layoutX="499.0" layoutY="212.0" text="1위" />
+      <Label layoutX="499.0" layoutY="237.0" text="2위" />
+      <Label layoutX="499.0" layoutY="291.0" text="4위" />
+      <Label layoutX="498.0" layoutY="318.0" text="5위" />
+      <Label layoutX="498.0" layoutY="347.0" text="6위" />
+      <Label layoutX="498.0" layoutY="374.0" text="7위" />
+      <Label layoutX="498.0" layoutY="401.0" text="8위" />
+      <Label layoutX="493.0" layoutY="453.0" prefHeight="19.0" prefWidth="31.0" text="10위" />
+      <Label fx:id="clickCl01" layoutX="701.0" layoutY="206.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickCl02" layoutX="701.0" layoutY="231.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickCl03" layoutX="701.0" layoutY="258.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickCl04" layoutX="701.0" layoutY="285.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickCl05" layoutX="701.0" layoutY="312.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickCl06" layoutX="701.0" layoutY="341.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickCl07" layoutX="701.0" layoutY="368.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickCl08" layoutX="701.0" layoutY="395.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickCl09" layoutX="701.0" layoutY="422.0" prefHeight="27.0" prefWidth="73.0" />
+      <Label fx:id="clickCl010" layoutX="701.0" layoutY="449.0" prefHeight="27.0" prefWidth="73.0" />
+   </children>
+</AnchorPane>

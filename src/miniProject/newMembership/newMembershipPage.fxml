@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="425.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniProject.newMembership.NewMembershipController">
+   <children>
+      <ImageView fitHeight="425.0" fitWidth="580.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/singup.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="26.0" layoutY="179.0" text="아이디 :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="227.0" text="비밀번호 :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fxNewId" layoutX="123.0" layoutY="178.0" />
+      <Button layoutX="281.0" layoutY="175.0" mnemonicParsing="false" onAction="#IdCh" prefHeight="29.0" prefWidth="112.0" text="중복확인" />
+      <PasswordField fx:id="fxNewPw" layoutX="123.0" layoutY="226.0" />
+      <Label layoutX="274.0" layoutY="227.0" text="비밀번호 확인 :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="fxNewPwCh" layoutX="409.0" layoutY="226.0" />
+      <Button layoutX="100.0" layoutY="369.0" mnemonicParsing="false" onAction="#NewMembershipCompl" prefHeight="42.0" prefWidth="112.0" text="회원가입 완료" />
+      <Button layoutX="400.0" layoutY="369.0" mnemonicParsing="false" onAction="#exit" prefHeight="42.0" prefWidth="112.0" text="취 소" />
+   </children>
+</AnchorPane>
